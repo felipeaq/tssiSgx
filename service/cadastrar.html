@@ -1,12 +1,9 @@
-<html>
-<head>
-<title> Login de Usuário </title>
-</head>
-<body>
-<form method="POST" action="cadastrar.php">
-<label>Login:</label><input type="text" name="login" id="login"><br>
-<label>Senha:</label><input type="password" name="senha" id="senha"><br>
-<input type="submit" value="Enviar" id="enviar" name="enviar">
-</form>
-</body>
-</html>
+﻿<form class="login" method="POST" action="cadastrar.php">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+    <h1 class="login-title">Autenticação de Usuário</h1>
+
+    <input type="text" name="login" id="login" class="login-input" placeholder="Usuário" autofocus>
+    <input type="password" name="senha" id="senha"class="login-input" placeholder="Senha">
+    <input type="submit" id="enviar" name="enviar" value="Autenticar" class="login-button">
+  <p class="login-lost"><a href="">POGPAMPA</a></p>
+  </form>
